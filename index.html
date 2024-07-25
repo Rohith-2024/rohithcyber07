@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+    <link rel="icon" href="https://www.webfx.com/tools/emoji-cheat-sheet/emoji/tada.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header, .contact {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .columns {
+            display: flex;
+            justify-content: space-between;
+        }
+        .left-column, .right-column {
+            width: 48%;
+        }
+        .right-column img {
+            width: 100%;
+            max-height: 300px;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact input, .contact textarea, .contact button {
+            margin: 10px 0;
+            padding: 10px;
+            font-size: 1em;
+        }
+        .contact button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .contact button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <h2>Hi, I am Rohith <span>&#128075;</span></h2>
+            <h1>A B.Sc Cyber Forensic student from Kerala</h1>
+            <p>I am passionate about finding ways to use different security tools and app/web development in an efficient and effective manner for people in business and studies.</p>
+            <a href="https://youtu.be/VB1w56ZNb7w?si=wrx5fdA8TzVnSnlw">Learn More</a>
+        </div>
+
+        <!-- What I Do Section -->
+        <div class="columns">
+            <div class="left-column">
+                <h2>What I do</h2>
+                <p>Hello! My name is Rohith Lal, and I'm from Punalur, Kerala, India. I am currently pursuing a B.Sc in Cyber Forensics. My passion lies in coding, app development, and website development.</p>
+                <p>I have a strong foundation in cybersecurity, network security, and internet protocols. Additionally, I have mastered various ethical hacking software and tools. My expertise also extends to software engineering and development, allowing me to build robust and efficient software solutions.</p>
+                <p>With a keen interest in the ever-evolving tech landscape, I am dedicated to expanding my knowledge and skills to stay at the forefront of the industry.</p>
+                <a href="https://youtube.com/@rohithfx?si=-cZS0al0BYF50s60">YouTube Channel</a>
+            </div>
+            <div class="right-column">
+                <div id="lottie-animation"></div>
+                <script>
+                    var animation = lottie.loadAnimation({
+                        container: document.getElementById('lottie-animation'),
+                        renderer: 'svg',
+                        loop: true,
+                        autoplay: true,
+                        path: 'https://lottie.host/623865ca-ab72-409d-bc82-4dd735f64e18/S8lHabZu51.json'
+                    });
+                </script>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="contact">
+            <h2>Get In Touch With Me!</h2>
+            <form action="https://formsubmit.co/rohithlal2024@email.com" method="POST">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Enter Your Message Here" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
