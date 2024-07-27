@@ -16,31 +16,30 @@
         }
 
         header {
-            background: linear-gradient(135deg, #003366, #004080); /* Dark blue gradient */
+            background: linear-gradient(135deg, #002d72, #0056a0); /* Dark navy to medium blue gradient */
             color: #fff;
-            padding: 60px 20px; /* Reduced padding for a cleaner look */
+            padding: 60px 20px;
             text-align: center;
             border-bottom: 5px solid #ffd700; /* Gold border */
-            position: relative;
-            overflow: hidden;
         }
 
         header h1 {
             margin: 0;
-            font-size: 2.5rem; /* Reduced font size */
+            font-size: 3rem;
             line-height: 1.2;
         }
 
         header h2 {
             margin: 10px 0;
-            font-size: 1.5rem; /* Reduced font size */
-            font-weight: 400;
+            font-size: 1.8rem;
         }
 
         header p {
-            margin: 20px auto;
-            font-size: 1rem; /* Standard font size */
+            margin: 20px 0;
+            font-size: 1.2rem;
             max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         header a {
@@ -56,16 +55,8 @@
             border-bottom: 2px solid #fff; /* White underline on hover */
         }
 
-        .header-animation {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            width: 120px; /* Slightly smaller size */
-            height: 120px; /* Slightly smaller size */
-        }
-
         section {
-            padding: 60px 20px; /* Consistent padding */
+            padding: 40px 20px;
             max-width: 1200px;
             margin: 0 auto;
         }
@@ -83,16 +74,14 @@
         }
 
         .left-column h2 {
-            font-size: 1.8rem; /* Reduced font size */
-            color: #003366; /* Dark blue color */
-            margin-bottom: 20px;
+            font-size: 2rem;
+            color: #002d72; /* Dark navy color */
         }
 
         .left-column p {
-            font-size: 0.95rem; /* Slightly smaller font size */
-            line-height: 1.7;
-            color: #555; /* Dark gray text */
-            margin-bottom: 20px;
+            font-size: 1rem;
+            line-height: 1.8;
+            color: #555; /* Dark gray text for better readability */
         }
 
         .right-column lottie-player {
@@ -105,17 +94,14 @@
             border-radius: 12px;
             box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
             padding: 30px;
-            margin-top: 60px; /* Increased margin for spacing */
+            margin-top: 20px;
             border: 1px solid #e0e0e0; /* Light gray border */
-            max-width: 600px; /* Constrained max-width */
-            margin-left: auto;
-            margin-right: auto; /* Centered contact section */
         }
 
         .contact h2 {
             margin-top: 0;
-            font-size: 1.8rem; /* Reduced font size */
-            color: #003366; /* Dark blue color */
+            font-size: 2rem;
+            color: #002d72; /* Dark navy color */
         }
 
         .contact form {
@@ -124,17 +110,11 @@
         }
 
         .contact input, .contact textarea {
-            margin-bottom: 20px;
-            padding: 12px;
+            margin-bottom: 15px;
+            padding: 14px;
             border: 1px solid #ddd;
             border-radius: 8px;
             font-size: 1rem;
-            transition: border-color 0.3s;
-        }
-
-        .contact input:focus, .contact textarea:focus {
-            border-color: #004080; /* Focus border color */
-            outline: none;
         }
 
         .contact textarea {
@@ -142,8 +122,8 @@
         }
 
         .contact button {
-            padding: 12px;
-            background-color: #004080; /* Medium blue color */
+            padding: 14px;
+            background-color: #0056a0; /* Medium blue color */
             color: #fff;
             border: none;
             border-radius: 8px;
@@ -154,7 +134,7 @@
         }
 
         .contact button:hover {
-            background-color: #003366; /* Darker blue on hover */
+            background-color: #003d7a; /* Darker blue on hover */
         }
 
         /* Mobile compatibility */
@@ -173,14 +153,6 @@
 </head>
 <body>
     <header>
-        <lottie-player
-            src="https://lottie.host/33f4c02e-3610-4b30-ad72-4d742551c86e/yesegCKba5.json"
-            background="transparent"
-            speed="1"
-            class="header-animation"
-            loop
-            autoplay
-        ></lottie-player>
         <h1>Hi, I am Rohith <span class="wave">👋</span></h1>
         <h2>A B.Sc Cyber Forensic student from Kerala</h2>
         <p>I am passionate about finding ways to use different security tools and app/web development efficiently for people in business and studies.</p>
@@ -196,7 +168,7 @@
             <a href="https://youtube.com/@rohithfx?si=-cZS0al0BYF50s60" target="_blank">YouTube Channel ></a>
         </div>
         <div class="right-column">
-            <!-- Main Lottie Animation -->
+            <!-- Lottie Animation -->
             <lottie-player
                 src="https://lottie.host/623865ca-ab72-409d-bc82-4dd735f64e18/S8lHabZu51.json"
                 background="transparent"
